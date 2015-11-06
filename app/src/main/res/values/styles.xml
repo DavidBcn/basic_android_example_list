@@ -1,0 +1,33 @@
+<resources>
+<!-- Base application theme. -->
+<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"/>
+<!-- Customize your theme here. -->
+<style name="Row"/>
+
+<style name="Row.Container">
+    <item name="android:background">@color/gray</item>
+    <item name="android:padding">7dp</item>
+</style>
+
+<style name="Row.Title">
+    <item name="android:padding">4dp</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:capitalize">sentences</item>
+    <item name="android:text">Title</item>
+    <item name="android:textSize">10pt</item>
+</style>
+
+<style name="Row.Subtitle">
+    <item name="android:padding">4dp</item>
+    <item name="android:textColor">@color/white</item>
+    <item name="android:text">Subtitle</item>
+    <item name="android:textSize">8pt</item>
+</style>
+
+<style name="Row.Icon">
+    <item name="android:padding">4dp</item>
+    <item name="android:layout_width">60dp</item>
+    <item name="android:layout_height">60dp</item>
+    <item name="android:src">@drawable/ic_action_dropbox</item>
+</style>
+</resources>
