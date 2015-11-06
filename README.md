@@ -1,1 +1,7 @@
-# basic_android_example_list
+# Basic example using listView, the important parts are:
+- ViewHolder Patter and recycling mechanism.
+- Proper way to propagate the eveints from the adapter to the fragment/activity=
+- Usage of the ArrayAdapter with custom model.
+- Proper usage of the XML and styles.
+
+This was an entry exercice for an interview.
